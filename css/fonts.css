@@ -5,14 +5,6 @@
     src: local("Manrope"), url("/fonts/Manrope-Regular.ttf") format("ttf"),
       url("/fonts/Manrope-Regular.woff") format("woff");
   }
-  
-  @font-face {
-    font-family: "Manrope";
-    font-style: normal;
-    font-weight: 500;
-    src: local("Manrope"), url("/fonts/Manrope-Medium.ttf") format("ttf"),
-      url("/fonts/Manrope-Medium.woff") format("woff");
-  }
 
   @font-face {
     font-family: "Manrope";

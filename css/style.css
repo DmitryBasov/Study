@@ -1,126 +1,80 @@
 body {
     font-family: "Manrope", sans-serif;
+    color: #18191F;
+    background: linear-gradient(194.01deg, #D9E8EF 9.6%, #EAF2F5 89.64%);
 }
 
-main {
-    background: #D5FAFC;
-    width: 1440px;
-    height: 896px;
+.main {
+    background-image: url(../img/main/Image.png);
+    background-repeat: no-repeat;
+    background-position: right; 
+    height: 866px;
 }
 
-h2, 
-h6, 
+h1,  
 p {
     margin: 0;
 }
 
-.img {
-    margin: 0 0 32px 32px;
-}
-
-h2 {
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 64px;
-    margin-bottom: 8px;
-}
-
 .container {
-    padding-left: 260px;
+    width: 1110px;
+    margin: 0 auto;
+}
 
+a {
+    text-decoration: none;
+    color: #18191F;
 }
   
-.left-bottom,
-.right-top,
-.right-bottom {
-    background-color: #FFFFFF;
+.nav {
+    position: fixed;
+    padding: 22px 0 22px;
+    background-color: #D9E8EF;
 }
 
-.right-bottom {
-    border-radius: 8px;
-    padding-top: 31px;
-    padding-bottom: 31px;
-    margin-right: 95px;
+.title {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    margin-bottom: 16px;
 }
 
-.right {
+.logo {
+    vertical-align: middle;
+    margin-right: 595px;
+}
+  
+.nav-items {
     display: inline-block;
     vertical-align: middle;
-    width: 445px;
-    padding-top: 168px;
-    padding-bottom: 80px;
-    margin-left: -4px;
-}
-
-.left-description {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    padding-left: 64px;
-    padding-right: 24px;
-    margin-bottom: 24px;
-}
-  
-.left {
-    display: inline-block;
-    vertical-align: middle;
-    width: 445px;
-    padding-bottom: 40px;
-    margin-right: 30px;
-}
-  
-.right-description {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    padding-left: 64px;
-    padding-right: 33px;
-    margin-bottom: 24px;
-}
-
-.title-description {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    margin-bottom: 24px;
-}
-  
-.left-bottom {
-    margin-left: 95px;
-    border-radius: 8px;
-    padding-top: 31px;
-    padding-bottom: 31px;
-
-}
-  
-h6 {
     font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    padding-left: 64px;
+    font-size: 14px;
+    line-height: 20px;
+}
+  
+.menu-item {
+    margin-left: 32px;
+}
+  
+.discover-link {
+    position: relative;
+    margin-left: 312px;
+}
+  
+.image-link {
+    position: absolute;
+    right: 83px;
+    top: -11px;
 }
 
-.right-description2 {
+.center {
+    width: 540px;
+    padding-top: 291px;
+}
+
+.description {
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
-    padding-left: 64px;
-    padding-right: 32px;
-    margin-bottom: 24px;
+    margin-bottom: 40px;
 }
-  
-.text {
-    display: block;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    color: #969BAB;
-    padding-left: 64px;
-}
-   
-.right-top {
-    border-radius: 8px;
-    padding-top: 31px;
-    padding-bottom: 31px;
-    margin-bottom: 32px;
-} 
