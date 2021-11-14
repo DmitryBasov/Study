@@ -1,4 +1,139 @@
 body {
-    margin: 0;
-    font-family: "Manrope", sans-serif;
+  font-family: "Nunito", serif;
+  
+}
+
+main {
+  background-image: url(../img/main/header-img.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+a {
+  text-decoration: none;
+}
+  
+h1, 
+h2, 
+h3, 
+h4, 
+p {
+  margin: 0;
+}
+
+section {
+  padding: 138px 0 211px;
+}
+   
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+  
+.header {
+  padding: 27px 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 14.06%, rgba(255, 255, 255, 0.8) 85.42%, rgba(255, 255, 255, 0) 100%);
+}
+  
+.nav-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #485466;
+  margin-right: 32px;
+  padding: 0;
+}
+   
+
+  
+.header-text {
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 70px;
+  background: linear-gradient(112.77deg, #C381DB 0%, #4E92F9  100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+  
+.header-description {
+  display: block;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 55px;
+  color: #485466;
+  margin-bottom: 13px;
+}
+
+.description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #5A6980;
+  text-align: left;
+}
+
+.item-img {
+  margin-left: 6px;
+  padding-bottom: 3px;
+}
+  
+.right-top-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;  
+  color: #4E92F9;
+  padding: 7px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+}
+  
+.description-margin {
+    margin-bottom: 49px;
+}
+  
+footer {
+  padding: 54px 0;
+  border-top: 1px solid rgba(128, 128, 128, 0.178);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.178);
+}
+  
+.col {
+  text-align: center;
+}
+  
+.textalign-start {
+  text-align: start;
+}
+  
+.textalign-end {
+  text-align: end;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding: 7px 16px;
+  background: linear-gradient(112.77deg, #C381DB 0%, #4E92F9  100%);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+    
+.background-image {
+  position: absolute;
+  right: -436px;
+  top: -228px;
+  z-index: -1;
+}
+
+.right-top-button:hover {
+  box-shadow: 0px 7px 20px rgba(49, 69, 255, 0.13);
+  background: linear-gradient(112.77deg, #C381DB 0%, #4E92F9  100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
