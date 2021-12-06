@@ -1,4 +1,161 @@
 body {
-    margin: 0;
+    background-color: #D9D3D3;
     font-family: "Manrope", sans-serif;
+    background-image: url(../img/background-image.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    color: #222222;
+}
+
+h2,
+p {
+    margin: 0;
+}
+
+.header {
+    padding: 60px 0;
+}
+
+/* .button-wrap{
+    margin-left: -70px;
+} */
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    flex-basis: 60%;
+}
+
+.header-nav {
+    flex-basis: 40%;
+}
+
+.container {
+    max-width: 1110px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;   
+}
+
+.header-nav a {
+    color: #222222;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 50px;
+}
+
+#slider-wrapper .slider-flex {
+    display: flex;
+}
+.slider-flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.slider-text p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 70px;
+    color: #222;
+}
+
+.slider-text button {
+    background: #4737FF;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    border: 1px solid transparent;
+    padding: 17px 21px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.slider-text {
+    flex-basis: 500px;
+    margin-top: 70px;
+}
+
+.slider-text span {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 15px;
+}
+
+.slider-text h2 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+}
+
+.slick-dots 
+li:nth-child(1) button:before {
+    content: '1';
+}
+
+.slick-dots li:nth-child(2) button:before {
+    content: '2';
+}
+
+.slick-dots li:nth-child(3) button:before {
+    content: '3';
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #ffffff;
+    background: #F96241;
+}
+
+.slider-text button:hover {
+    background-color: transparent;
+    border: 1px solid #4737FF;
+    color: #4737FF;
+}
+
+.slider-text a {
+    text-decoration: none;
+}
+
+.slider-text img {
+    display: inline-flex;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+
+.slick-dots {
+    bottom: 60px;
+    display: inline-flex;
+}
+
+.slick-dots li {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.slick-dots 
+li button {
+    width: 40px;
+    height: 40px;
+}
+
+.slick-dots 
+li button:before {
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    opacity: 1;
 }
