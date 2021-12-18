@@ -1,0 +1,190 @@
+@media (max-width: 375px) {
+    .container {
+      max-width: 311px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .trends-slider {
+        display: none;
+    }
+
+    .trends {
+        padding: 48px 0;
+    }
+
+    .trends-email {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 64px;       
+    }
+
+    .trends-email__input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .trends-email__button {
+        width: 290px;
+        margin-top: 16px;
+    }
+
+    .trends-inspirations__title {
+        margin-bottom: 20px;
+    }
+
+    .trends-inspirations__subtitle {
+        margin-bottom: 40px;
+    }
+
+    .description-marginbottom20 {
+        margin-bottom: 20px;
+    }
+
+    .trends__items-img {
+        margin-bottom: 15px;
+    }
+
+    .trends__items-description {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #121212;
+    }
+
+    .trends__items-wrapper {
+        display: flex;
+    }
+    
+    .footer {
+        padding: 48px 0;
+    }
+    
+    .footer__flex {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40;
+    }
+
+    .footer__logo {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer__nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav__item {
+        padding-left: 0;
+        margin-bottom: 40px;
+        color: #121212;
+    }
+
+    .aside-description {
+        width: 100%;
+    }
+
+    .aside-img {
+        width: 100%;
+    }
+
+    .footer__bottom-social {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;       
+    }
+
+    .bottom-social {
+        display: inline-block;
+    }
+
+    .marginright-20 {
+        margin-right: 20px;
+    }
+
+    .footer__bottom-credits {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .credits-wrap {
+        flex-wrap: wrap;
+    }
+
+    .credits-trdemark{
+        display: inline-block;
+        margin-top: 32px;
+    }
+
+    .credits-link {
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 24px;
+        margin-bottom: 9px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .trends-text {
+        margin-bottom: 20px;
+    }
+
+    .trends-text__link {
+        margin-bottom: 0;
+    }
+
+    .trends-email {
+        display: flex;
+        justify-content: start;
+    }
+
+    .trends-email__input {
+        margin-bottom: 0;
+    }
+
+    .trends-slider {
+    padding: 40px 0;
+    }
+
+    .slick-arrow {
+        top: calc(100% + 10px);
+    }
+
+    .slick-next {
+        left: 90%;
+    }
+
+    .slick-prev {
+        left: 82%;
+    }
+
+    .trends-inspirations__title {
+        margin-bottom: 20px;
+    }
+
+    .footer__flex {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .footer__logo {
+        margin-bottom: 40px;
+    }
+        
+    .footer__bottom-social {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}

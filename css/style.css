@@ -1,4 +1,241 @@
 body {
+    font-family: "Varta", "Merriweather", sans-serif;
     margin: 0;
-    font-family: "Manrope", sans-serif;
+    color: #706458;
+    background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #706458;
+    cursor: pointer;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/* trends */
+.trends {
+    padding: 70px 0;
+}
+
+.trends-text__title {
+    font-family: "Merriweather", sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    margin-bottom: 15px;
+    color: #121212;
+}
+
+.trends-text__subtitle {
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(112, 100, 88, 0.9);
+    margin-bottom: 10px;
+}
+
+.trends-text__link {
+    letter-spacing: 0.3px;
+    color: #A06056;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    line-height: 25px;
+    margin-bottom: 64px;
+    display: inline-block;
+}
+
+.trends-email {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.trends-email__input {
+    background: rgba(243, 238, 232, 0.3);
+    border-radius: 1px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #121212;
+    padding: 15px;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    width: 296px;
+    margin-right: 16px;
+}
+
+.trends-email__button {
+    background: #534B42;
+    border-radius: 1px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+.trends-slider {
+    margin-bottom: 40px;
+}
+
+.trends-inspirations__title {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+}
+
+.trends-inspirations__subtitle {
+    font-weight: normal;
+    font-size: 18px;
+    color: #706458;
+}
+
+
+/* slider */
+.slick-initialized .slick-slide {
+    margin: 0 15px;
+}
+
+.slick-arrow {
+    top: calc(100% + 40px);
+}
+
+.slick-prev {
+    left: 68%;
+}
+
+.slick-next {
+    left: 73%;
+}
+
+.slick-prev,
+.slick-next {
+    border: 2px solid #A06056;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.slick-prev:before {
+    content: url('../img/trends/icon-left.svg');
+}
+
+.slick-next:before {
+    content: url('../img/trends/icon-right.svg');
+}
+
+.footer__flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.nav__item-element {
+    margin-top: 12px;
+    font-family: "Varta";
+    font-weight: 400;
+    font-size: 18px;
+    color: #706458;
+}
+
+.footer {
+    background-color: #F3EEE8;
+    padding: 70px 0;
+}
+
+.trends__items-wrapper {
+    display: none;
+}
+
+.aside-text {
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: -0.2px;
+    color: #534B42;
+    margin-bottom: 24px;
+}
+
+.aside-img {
+    margin-bottom: 9px;
+}
+
+.aside-description {
+    width: 235px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    align-self: stretch;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0;
+    margin-bottom: 22px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #534B42;
+}
+
+.aside-link {
+    display: block;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.3px;
+    align-items: center;
+    color: #A06056;
+}
+
+.marginright-20 {
+    margin-right: 24px;
+}
+
+.footer__bottom-credits {
+    display: flex;
+    justify-content: space-between;
+}
+
+.credits-link {
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgba(112, 100, 88, 0.7);
+}
+
+.link-img {
+    align-items: center;
+}
+ 
+.footer__bottom-social {
+     display: flex;
+     justify-content: center;
+     margin-bottom: 20px;
 }

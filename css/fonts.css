@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Varta";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Varta"), url("/fonts/Varta/Varta-Light.woff2") format("woff2"),
+    url("/fonts/Varta/Varta-Light.woff") format("woff"),
+    url("/fonts/Varta/Varta-Light.ttf") format("ttf"),
+    url("/fonts/Varta/Varta-Light.eot") format("eot");
+}
+
+@font-face {
+  font-family: "Varta";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Varta"), url("/fonts/Varta/Varta-Regular.woff2") format("woff2"),
+    url("/fonts/Varta/Varta-Regular.woff") format("woff"),
+    url("/fonts/Varta/Varta-Regular.ttf") format("ttf"),
+    url("/fonts/Varta/Varta-Regular.eot") format("eot");
+}
+
+@font-face {
+  font-family: "Varta";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Varta"), url("/fonts/Varta/Varta-Bold.woff2") format("woff2"),
+    url("/fonts/Varta/Varta-Bold.woff") format("woff"),
+    url("/fonts/Varta/Varta-Bold.ttf") format("ttf"),
+    url("/fonts/Varta/Varta-Bold.eot") format("eot");
+}
+
+/* Merriweather */
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Merriweather"), url("/fonts/Merriweather/Merriweather-Light.woff") format("woff"),
+    url("/fonts/Merriweather/Merriweather-Light.ttf") format("ttf"),
+    url("/fonts/Merriweather/Merriweather-Light.eot") format("eot");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Merriweather"), url("/fonts/Merriweather/Merriweather-Regular.woff") format("woff"),
+    url("/fonts/Merriweather/Merriweather-Regular.ttf") format("ttf"),
+    url("/fonts/Merriweather/Merriweather-Regular.eot") format("eot");
+}
